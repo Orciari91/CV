@@ -1,0 +1,292 @@
+body{
+	background-color: #26262d;
+}
+
+.vertical-menu {
+	position: fixed;
+	width: 100px;
+	margin-left: 2%; 
+	border-radius: 5px;
+	background-color: #31313a;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	padding: auto;
+}
+
+.vertical-menu a {
+	color: white; 
+ 	display: block; 
+ 	margin: 15px;
+ 	padding: 5px; 
+ 	text-decoration: none;
+ 	height: 36px;
+}
+
+.vertical-menu a:hover {
+	color: orange; 
+	display: block;
+}
+
+.menuOption{
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+	margin: 5px;
+	text-align: center;
+}
+
+.InfoPrincipal{
+	position: relative;
+	margin-top: 5%;
+	margin-left: 11%;
+	display: inline-block;
+	background-color: #31313a;
+	text-align: center;
+	border-radius: 5px;
+	width: 500px;
+}
+
+.InfoSec{
+	position: absolute;
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 550px;
+	background-color: #31313a;
+	border-radius: 5px;
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 500px;
+}
+
+::-webkit-scrollbar{
+	width: 8px;
+	background-color: grey;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: orange;
+}
+
+::-webkit-scrollbar-track{
+	border-radius: 10px;
+	background-color: grey;
+}
+
+.nomDiv{
+	padding: 1px 16px;
+}
+
+h1{
+	color: grey;
+	margin: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 34px;
+	font-weight: 100;
+}
+
+h2{
+	color: orange;
+	margin: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+
+h4{
+	margin: 20px 0px 10px 0px;
+}
+
+.MainText{
+	margin: 10px 0px;
+}
+
+.SocialNet{
+	padding: 10px 0px 40px 0px;
+}
+
+.icon{
+	margin-left: 5px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.botPrincipal{
+	display: inline-block;
+	margin-right: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.row1{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+
+.row2{
+	display: block;
+	text-align: center;
+	margin: 10px;
+	padding: 5px 30px;
+}
+
+.col1{
+	position: relative;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: grey;
+	padding: 30px 30px;
+	margin: auto;
+	width: auto;
+	height: 18px;
+	border-color: grey;
+	border-top: solid;
+	border-width: 1px;
+}
+
+a{
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.TextWork{
+	font-size: 12px;
+}
+
+.Plazo{
+	display: inline-block;
+	padding: 1px 5px;
+	color: orange;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;	
+	font-weight: 600;
+	border-style: solid;
+	border-color: orange;
+	border-width: 1px;
+}
+
+.carrera{
+	position: relative;
+	display: block;
+	font-size: 21px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	margin: auto 0px 0px 0px;
+}
+
+.academia{
+	position: relative;
+	display: block;
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
+	color: grey;
+}
+
+.col2{
+	position: relative;
+	display: inline-block;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	width: 49%;
+	text-align: left;
+	font-weight: bold;
+}
+
+.Datos{
+	color: grey;
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+}
+
+.parrafos{
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	color: grey;
+	padding: 5px 30px;
+	line-height: 24px;
+}
+
+.empresa{
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+.titles{
+	position: relative;
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	margin: 30px 50px 20px 30px;
+	color: white;
+	border-bottom: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+.puestos{
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	font-size: 21px;
+	color: white;
+	margin: 10px 0px ; 
+}
+
+.TextWork{
+	padding: 0px 0px 10px 0px;
+}
+
+.remuneracion{
+	display: block;
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+
+.col3{
+	display: inline-block;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	position: relative;
+	text-align: center;
+	margin: 0;
+}
+
+.Precio{
+	font-size: 40px;
+	color: cyan;
+	margin: 45px;
+	letter-spacing: 2px;
+}
+
+.infoText{
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	margin: 0px 35px;
+	height: auto;
+	font-weight: 100;
+}
+.footer{
+	display: block;
+	position: fixed;
+	margin: 260px 0px 0px 0px;
+	background-color: grey;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+}
