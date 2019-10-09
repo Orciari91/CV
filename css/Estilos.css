@@ -24,7 +24,34 @@ body{
 }
 
 .vertical-menu a:hover {
-	color: orange; 
+	color: pink; 
+	display: block;
+}
+
+.vertical-menu2 {
+	position: fixed;
+	width: 70px;
+	margin-top: 25%;
+	margin-left: 3%; 
+	border-radius: 5px;
+	background-color: #31313a;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	padding: auto;
+}
+
+.vertical-menu2 a {
+	color: white; 
+ 	display: block; 
+ 	margin: 15px;
+ 	padding: 5px; 
+ 	text-decoration: none;
+ 	height: 36px;
+}
+
+.vertical-menu2 a:hover {
+	color: pink; 
 	display: block;
 }
 
@@ -46,6 +73,14 @@ body{
 	width: 500px;
 }
 
+.fotoPerfil{
+	display: block;
+	text-align: center;
+	position: relative;
+	margin: -50px auto auto auto;
+	z-index: 1;
+}
+
 .InfoSec{
 	position: absolute;
 	display: inline-block;
@@ -65,7 +100,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-	background-color: orange;
+	background-color: pink;
 }
 
 ::-webkit-scrollbar-track{
@@ -86,7 +121,7 @@ h1{
 }
 
 h2{
-	color: orange;
+	color: pink;
 	margin: 5px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
@@ -162,12 +197,12 @@ a{
 .Plazo{
 	display: inline-block;
 	padding: 1px 5px;
-	color: orange;
+	color: pink;
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;	
 	font-weight: 600;
 	border-style: solid;
-	border-color: orange;
+	border-color: pink;
 	border-width: 1px;
 }
 
@@ -267,7 +302,7 @@ a{
 
 .Precio{
 	font-size: 40px;
-	color: cyan;
+	color: yellow;
 	margin: 45px;
 	letter-spacing: 2px;
 }
